@@ -165,6 +165,6 @@ async function fetchSearchWeatherInfo(city) {
         renderWeatherInfo(data);
     }
     catch(err) {
-        //hW
+        consol.log("Error",err);
     }
 }
